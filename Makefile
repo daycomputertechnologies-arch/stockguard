@@ -1,4 +1,4 @@
-.PHONY: dev api web test build compile seed smoke stack
+.PHONY: dev api web test build compile seed smoke qr stack
 
 dev:
 	@echo "Run scripts/dev.ps1 (Windows) or scripts/dev.sh (macOS/Linux)"
@@ -23,6 +23,9 @@ seed:
 
 smoke:
 	node scripts/smoke.mjs
+
+qr:
+	node scripts/qr-sheet.mjs
 
 stack:
 	docker compose up --build

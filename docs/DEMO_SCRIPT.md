@@ -7,7 +7,7 @@ Two presenters, one laptop, one phone. Freeze code at 09:00.
 - [ ] Staging URL loads on the phone over HTTPS.
 - [ ] `node scripts/smoke.mjs` passes.
 - [ ] `BATCH-0001` is untouched: 240 units at Langa CHC.
-- [ ] The scanner QR for `BATCH-0001` is printed.
+- [ ] The scanner QR sheet is printed (`node scripts/qr-sheet.mjs` → `docs/qr/index.html`).
 - [ ] Backup laptop has the same `.env` and a safe-demo copy.
 - [ ] Browser zoom at 90%, notifications off.
 

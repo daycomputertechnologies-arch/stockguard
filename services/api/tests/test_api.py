@@ -131,7 +131,11 @@ def test_agent_returns_a_transfer_action(client):
     )
     assert response.status_code == 200
     body = response.json()
-    assert "CLINIC-B".lower() in body["reply"].lower() or "Khayelitsha" in body["reply"]
+    assert "Khayelitsha" in body["reply"]
+    assert "Langa" in body["reply"]
+    assert "CLINIC-A" not in body["reply"]
+    assert "CLINIC-B" not in body["reply"]
+    assert "BATCH-0001" in body["reply"]
     assert body["source"] == "rules"
     assert body["actions"] == [
         {
