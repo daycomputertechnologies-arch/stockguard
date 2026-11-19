@@ -1,0 +1,18 @@
+[
+  { "clinic_id": "CLINIC-A", "drug_code": "AMOX-500", "daily_use": 9.1 },
+  { "clinic_id": "CLINIC-A", "drug_code": "METF-500", "daily_use": 6.4 },
+  { "clinic_id": "CLINIC-A", "drug_code": "TDF-300", "daily_use": 4.2 },
+  { "clinic_id": "CLINIC-B", "drug_code": "AMOX-500", "daily_use": 6.4 },
+  { "clinic_id": "CLINIC-B", "drug_code": "METF-500", "daily_use": 2.8 },
+  { "clinic_id": "CLINIC-B", "drug_code": "TDF-300", "daily_use": 1.4 },
+  { "clinic_id": "CLINIC-C", "drug_code": "SALB-INH", "daily_use": 1.1 },
+  { "clinic_id": "CLINIC-D", "drug_code": "SALB-INH", "daily_use": 2.3 },
+  { "clinic_id": "CLINIC-E", "drug_code": "SALB-INH", "daily_use": 1.8 },
+  { "clinic_id": "CLINIC-E", "drug_code": "CEFT-1G", "daily_use": 2.2 },
+  { "clinic_id": "CLINIC-F", "drug_code": "OXY-10", "daily_use": 5.2 },
+  { "clinic_id": "CLINIC-G", "drug_code": "PARA-500", "daily_use": 22.0 },
+  { "clinic_id": "CLINIC-H", "drug_code": "ORS-SACH", "daily_use": 12.0 },
+  { "clinic_id": "CLINIC-I", "drug_code": "AMOX-500", "daily_use": 5.2 },
+  { "clinic_id": "CLINIC-J", "drug_code": "METF-500", "daily_use": 4.0 },
+  { "clinic_id": "CLINIC-K", "drug_code": "TDF-300", "daily_use": 5.0 }
+]

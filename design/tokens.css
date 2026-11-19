@@ -1,0 +1,22 @@
+:root {
+  --sg-ink: #0b2545;
+  --sg-ink-700: #12325a;
+  --sg-ink-600: #1a3e6b;
+  --sg-brand-50: #ecfdf9;
+  --sg-brand-100: #d1faf1;
+  --sg-brand-300: #6ee7d3;
+  --sg-brand-500: #14b8a6;
+  --sg-brand-600: #0d9488;
+  --sg-brand-700: #0f766e;
+  --sg-canvas: #f6f8fb;
+  --sg-line: #e4e9f0;
+  --sg-warn: #f59e0b;
+  --sg-danger: #ef4444;
+  --sg-good: #10b981;
+  --sg-radius-card: 18px;
+  --sg-radius-pill: 999px;
+  --sg-shadow-card: 0 1px 2px rgba(11, 37, 69, 0.06), 0 8px 24px -12px rgba(11, 37, 69, 0.18);
+  --sg-label-size: 11px;
+  --sg-label-tracking: 0.09em;
+  --sg-number-size: 30px;
+}

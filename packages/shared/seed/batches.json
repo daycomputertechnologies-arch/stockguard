@@ -1,0 +1,19 @@
+[
+  { "batch_id": "BATCH-0001", "drug_code": "AMOX-500", "clinic_id": "CLINIC-A", "quantity": 240, "expiry_in_days": 21, "status": "registered", "derived_from": null, "registered_days_ago": 40 },
+  { "batch_id": "BATCH-0002", "drug_code": "AMOX-500", "clinic_id": "CLINIC-B", "quantity": 38, "expiry_in_days": 400, "status": "registered", "derived_from": null, "registered_days_ago": 35 },
+  { "batch_id": "BATCH-0003", "drug_code": "METF-500", "clinic_id": "CLINIC-A", "quantity": 140, "expiry_in_days": 35, "status": "registered", "derived_from": null, "registered_days_ago": 60 },
+  { "batch_id": "BATCH-0003-T1", "drug_code": "METF-500", "clinic_id": "CLINIC-B", "quantity": 40, "expiry_in_days": 35, "status": "in_transit", "derived_from": "BATCH-0003", "registered_days_ago": 8 },
+  { "batch_id": "BATCH-0004", "drug_code": "TDF-300", "clinic_id": "CLINIC-A", "quantity": 120, "expiry_in_days": 300, "status": "registered", "derived_from": null, "registered_days_ago": 50 },
+  { "batch_id": "BATCH-0005", "drug_code": "TDF-300", "clinic_id": "CLINIC-B", "quantity": 24, "expiry_in_days": 300, "status": "registered", "derived_from": null, "registered_days_ago": 48 },
+  { "batch_id": "BATCH-0006", "drug_code": "SALB-INH", "clinic_id": "CLINIC-C", "quantity": 40, "expiry_in_days": 18, "status": "registered", "derived_from": null, "registered_days_ago": 70 },
+  { "batch_id": "BATCH-0006-T1", "drug_code": "SALB-INH", "clinic_id": "CLINIC-E", "quantity": 20, "expiry_in_days": 18, "status": "in_transit", "derived_from": "BATCH-0006", "registered_days_ago": 3 },
+  { "batch_id": "BATCH-0007", "drug_code": "SALB-INH", "clinic_id": "CLINIC-D", "quantity": 12, "expiry_in_days": 500, "status": "registered", "derived_from": null, "registered_days_ago": 30 },
+  { "batch_id": "BATCH-0008", "drug_code": "CEFT-1G", "clinic_id": "CLINIC-E", "quantity": 90, "expiry_in_days": 280, "status": "registered", "derived_from": null, "registered_days_ago": 45 },
+  { "batch_id": "BATCH-0009", "drug_code": "OXY-10", "clinic_id": "CLINIC-F", "quantity": 30, "expiry_in_days": 25, "status": "registered", "derived_from": null, "registered_days_ago": 55 },
+  { "batch_id": "BATCH-0010", "drug_code": "PARA-500", "clinic_id": "CLINIC-G", "quantity": 800, "expiry_in_days": 700, "status": "registered", "derived_from": null, "registered_days_ago": 90 },
+  { "batch_id": "BATCH-0011", "drug_code": "ORS-SACH", "clinic_id": "CLINIC-H", "quantity": 500, "expiry_in_days": 650, "status": "registered", "derived_from": null, "registered_days_ago": 80 },
+  { "batch_id": "BATCH-0012", "drug_code": "AMOX-500", "clinic_id": "CLINIC-I", "quantity": 90, "expiry_in_days": 240, "status": "registered", "derived_from": null, "registered_days_ago": 25 },
+  { "batch_id": "BATCH-0013", "drug_code": "METF-500", "clinic_id": "CLINIC-J", "quantity": 60, "expiry_in_days": 60, "status": "registered", "derived_from": null, "registered_days_ago": 42 },
+  { "batch_id": "BATCH-0014", "drug_code": "TDF-300", "clinic_id": "CLINIC-K", "quantity": 40, "expiry_in_days": 90, "status": "registered", "derived_from": null, "registered_days_ago": 38 },
+  { "batch_id": "BATCH-0015", "drug_code": "OXY-10", "clinic_id": "CLINIC-H", "quantity": 60, "expiry_in_days": 120, "status": "registered", "derived_from": null, "registered_days_ago": 20 }
+]

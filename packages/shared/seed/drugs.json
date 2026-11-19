@@ -1,0 +1,10 @@
+[
+  { "drug_code": "AMOX-500", "name": "Amoxicillin 500mg", "form": "capsule", "unit_cost": 1.85, "shelf_life_days": 730 },
+  { "drug_code": "METF-500", "name": "Metformin 500mg", "form": "tablet", "unit_cost": 0.95, "shelf_life_days": 730 },
+  { "drug_code": "TDF-300", "name": "Tenofovir 300mg", "form": "tablet", "unit_cost": 2.4, "shelf_life_days": 730 },
+  { "drug_code": "SALB-INH", "name": "Salbutamol inhaler", "form": "inhaler", "unit_cost": 48.0, "shelf_life_days": 540 },
+  { "drug_code": "OXY-10", "name": "Oxytocin 10IU/ml", "form": "injection", "unit_cost": 12.5, "shelf_life_days": 365 },
+  { "drug_code": "CEFT-1G", "name": "Ceftriaxone 1g", "form": "vial", "unit_cost": 18.9, "shelf_life_days": 730 },
+  { "drug_code": "PARA-500", "name": "Paracetamol 500mg", "form": "tablet", "unit_cost": 0.6, "shelf_life_days": 1095 },
+  { "drug_code": "ORS-SACH", "name": "Oral rehydration sachet", "form": "sachet", "unit_cost": 3.2, "shelf_life_days": 730 }
+]

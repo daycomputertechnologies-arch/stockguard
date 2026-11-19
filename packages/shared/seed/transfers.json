@@ -1,0 +1,22 @@
+[
+  {
+    "transfer_id": "TRF-0001",
+    "batch_id": "BATCH-0003",
+    "derived_batch_id": "BATCH-0003-T1",
+    "from_clinic_id": "CLINIC-A",
+    "to_clinic_id": "CLINIC-B",
+    "quantity": 40,
+    "reason": "stockout_risk",
+    "days_ago": 8
+  },
+  {
+    "transfer_id": "TRF-0002",
+    "batch_id": "BATCH-0006",
+    "derived_batch_id": "BATCH-0006-T1",
+    "from_clinic_id": "CLINIC-C",
+    "to_clinic_id": "CLINIC-E",
+    "quantity": 20,
+    "reason": "near_expiry",
+    "days_ago": 3
+  }
+]

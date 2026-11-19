@@ -1,0 +1,10 @@
+# Replace handles with the four GitHub usernames before the first push.
+
+/apps/web/            @frontend-handle
+/services/api/        @backend-handle
+/contracts/           @blockchain-handle
+/packages/shared/     @blockchain-handle @backend-handle
+/docs/                @docs-handle
+/infra/               @backend-handle
+/design/              @frontend-handle
+/.github/             @blockchain-handle

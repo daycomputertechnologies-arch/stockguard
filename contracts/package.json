@@ -1,0 +1,17 @@
+{
+  "name": "stockguard-contracts",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "compile": "node compile.mjs",
+    "deploy": "node scripts/deploy.mjs",
+    "seed": "node scripts/seed.mjs"
+  },
+  "devDependencies": {
+    "solc": "0.8.24"
+  },
+  "dependencies": {
+    "ethers": "^6.13.0"
+  }
+}

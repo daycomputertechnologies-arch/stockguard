@@ -1,0 +1,27 @@
+services:
+  api:
+    build: ./services/api
+    env_file:
+      - .env
+    environment:
+      DATABASE_PATH: /data/stockguard.db
+      SEED_DIR: /seed
+    volumes:
+      - stockguard-data:/data
+      - ./packages/shared/seed:/seed:ro
+    ports:
+      - "8800:8800"
+    restart: unless-stopped
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    depends_on:
+      - api
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+volumes:
+  stockguard-data:

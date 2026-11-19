@@ -1,0 +1,14 @@
+[
+  { "clinic_id": "CLINIC-A", "name": "Langa CHC", "district": "Cape Metro North", "lat": -33.943, "lng": 18.53 },
+  { "clinic_id": "CLINIC-B", "name": "Khayelitsha Site B CHC", "district": "Cape Metro East", "lat": -34.035, "lng": 18.68 },
+  { "clinic_id": "CLINIC-C", "name": "Khayelitsha Site C CHC", "district": "Cape Metro East", "lat": -34.03, "lng": 18.69 },
+  { "clinic_id": "CLINIC-D", "name": "Guguletu CHC", "district": "Cape Metro East", "lat": -33.975, "lng": 18.575 },
+  { "clinic_id": "CLINIC-E", "name": "Nyanga CHC", "district": "Cape Metro East", "lat": -33.99, "lng": 18.59 },
+  { "clinic_id": "CLINIC-F", "name": "Crossroads CHC", "district": "Cape Metro East", "lat": -33.995, "lng": 18.57 },
+  { "clinic_id": "CLINIC-G", "name": "Philippi CHC", "district": "Cape Metro South", "lat": -34.01, "lng": 18.62 },
+  { "clinic_id": "CLINIC-H", "name": "Delft CHC", "district": "Cape Metro North", "lat": -33.99, "lng": 18.65 },
+  { "clinic_id": "CLINIC-I", "name": "Mitchells Plain CHC", "district": "Cape Metro South", "lat": -34.04, "lng": 18.62 },
+  { "clinic_id": "CLINIC-J", "name": "Athlone CHC", "district": "Cape Metro Central", "lat": -33.965, "lng": 18.51 },
+  { "clinic_id": "CLINIC-K", "name": "Retreat CHC", "district": "Cape Metro South", "lat": -34.055, "lng": 18.48 },
+  { "clinic_id": "CLINIC-L", "name": "Elsies River CHC", "district": "Cape Metro North", "lat": -33.925, "lng": 18.57 }
+]
