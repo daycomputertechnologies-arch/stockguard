@@ -12,6 +12,10 @@ import { EmptyState, ErrorNote, PageHeader, SectionTitle, TxLink } from "../comp
 const DEMO_BATCHES = ["BATCH-0001", "BATCH-0002", "BATCH-0009"];
 const READER_ID = "stockguard-qr-reader";
 
+function cameraBlocked(): boolean {
+  return typeof window !== "undefined" && !window.isSecureContext;
+}
+
 export default function Scanner() {
   const [payload, setPayload] = useState("");
   const [batch, setBatch] = useState<Batch | null>(null);
@@ -143,6 +147,12 @@ export default function Scanner() {
             }
           />
           <div className="px-5 pb-5">
+            {cameraBlocked() ? (
+              <div className="mb-3 rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-xs text-amber-800">
+                Camera needs HTTPS or localhost. Open this page on the deployed URL, or use a
+                tunnel — the payload field and demo codes still work.
+              </div>
+            ) : null}
             <div
               id={READER_ID}
               className="grid aspect-[4/3] w-full place-items-center overflow-hidden rounded-xl border border-dashed border-line bg-slate-50 text-sm text-slate-400"
