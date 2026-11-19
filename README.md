@@ -77,7 +77,8 @@ Web on http://localhost:8080, API on http://localhost:8800.
 ## Where to start
 
 1. `.scratch/stockguard/README.md` — the ticket board; work the frontier.
-2. `docs/RUNBOOK.md` — deploy, smoke test, camera/HTTPS, rollback.
+2. `docs/CORE-WALLET.md` — deploy to Fuji with Core, step by step.
+3. `docs/RUNBOOK.md` — deploy, smoke test, camera/HTTPS, rollback.
 3. `docs/DEMO_SCRIPT.md` — the 3-minute script.
 4. `docs/DECISIONS.md` — why the contract looks the way it does.
 5. `.env.example` — every secret the stack needs.

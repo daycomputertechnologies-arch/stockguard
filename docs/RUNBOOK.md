@@ -84,6 +84,8 @@ Deploy — either path works:
 npm run deploy
 ```
 
+Step-by-step for Core Wallet: `docs/CORE-WALLET.md`.
+
 Then:
 
 ```dotenv
@@ -93,10 +95,12 @@ OPERATOR_PRIVATE_KEY=0x...
 ```
 
 ```powershell
-cd contracts && npm run seed     # registers the seed batches on chain
+cd contracts && npm run seed            # registers the seed batches on chain
+cd ../services/api && uv sync --extra chain
 ```
 
 Restart the API. `/api/health` must report `"chain": "fuji"` and a contract address.
+The API loads the root `.env` automatically at startup.
 Note: seeded rows have no `tx_hash` by design; the live demo path creates the first
 real ones.
 

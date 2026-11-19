@@ -11,7 +11,12 @@ class Web3Chain:
     mode = "fuji"
 
     def __init__(self, settings: Settings) -> None:
-        from web3 import Web3
+        try:
+            from web3 import Web3
+        except ImportError as exc:
+            raise RuntimeError(
+                "CHAIN_MODE=fuji needs web3. Run `uv sync --extra chain` in services/api."
+            ) from exc
 
         artifact_path = REPO_ROOT / "packages" / "shared" / "abi" / "DrugBatchRegistry.json"
         if not artifact_path.exists():

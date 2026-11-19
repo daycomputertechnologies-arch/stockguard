@@ -2,7 +2,10 @@ from dataclasses import dataclass
 from os import getenv
 from pathlib import Path
 
+from dotenv import load_dotenv
+
 REPO_ROOT = Path(__file__).resolve().parents[3]
+load_dotenv(REPO_ROOT / ".env", override=False)
 
 
 def _bool(value: str | None, default: bool = False) -> bool:
